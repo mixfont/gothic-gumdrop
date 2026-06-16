@@ -8,7 +8,7 @@ Gothic Gumdrop is a, cute, and bubbly blackletter font. This came out of a proje
 
 ![Gothic Gumdrop numeral specimen](documentation/readme-images/gothic-gumdrop-03.webp)
 
-![Gothic Gumdrop accented character grid](documentation/readme-images/gothic-gumdrop-accent-grid.png)
+![Gothic Gumdrop baseline-aligned accented character grid](documentation/readme-images/gothic-gumdrop-accent-grid.png)
 
 This font was created with the help of the Mixfont [AI font generation](https://www.mixfont.com/font-generator) model.
 
