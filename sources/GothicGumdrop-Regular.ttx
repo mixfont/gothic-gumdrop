@@ -330,13 +330,13 @@
   <head>
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
-    <fontRevision value="1.001"/>
-    <checkSumAdjustment value="0xff16dcf"/>
+    <fontRevision value="1.0"/>
+    <checkSumAdjustment value="0xff366e7"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000001"/>
     <unitsPerEm value="1000"/>
     <created value="Mon Jun 15 19:22:58 2026"/>
-    <modified value="Tue Jun 16 00:13:14 2026"/>
+    <modified value="Tue Jun 16 00:29:05 2026"/>
     <xMin value="8"/>
     <yMin value="-310"/>
     <xMax value="659"/>
@@ -41858,13 +41858,13 @@
       Regular
     </namerecord>
     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
-      1.001;GothicGumdrop-Regular
+      1.000;GothicGumdrop-Regular
     </namerecord>
     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
       Gothic Gumdrop Regular
     </namerecord>
     <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
-      Version 1.001
+      Version 1.000
     </namerecord>
     <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
       GothicGumdrop-Regular
