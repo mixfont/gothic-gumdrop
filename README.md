@@ -1,18 +1,14 @@
 # Gothic Gumdrop
 
-![Gothic Gumdrop specimen](documentation/gothic-gumdrop-specimen.png)
-
-Gothic Gumdrop is a decorative blackletter display typeface with compact rhythm, pointed terminals, and a soft, candy-like texture. It is intended for short words, posters, packaging, game titles, and playful headline settings.
-
-The typeface was generated with Mixfont and refined for open-source release, including normalized accented `i` glyphs, normalized punctuation, and Google Fonts-compatible font metadata.
-
-## Specimens
-
 ![Gothic Gumdrop title specimen](documentation/readme-images/gothic-gumdrop-01.webp)
 
 ![Gothic Gumdrop phrase specimen](documentation/readme-images/gothic-gumdrop-02.webp)
 
 ![Gothic Gumdrop numeral specimen](documentation/readme-images/gothic-gumdrop-03.webp)
+
+Gothic Gumdrop is a decorative blackletter display typeface with compact rhythm, pointed terminals, and a soft, candy-like texture. It is intended for short words, posters, packaging, game titles, and playful headline settings.
+
+The typeface was generated with Mixfont and refined for open-source release, including normalized accented `i` glyphs, normalized punctuation, and Google Fonts-compatible font metadata.
 
 ## Building
 
@@ -44,3 +40,7 @@ fontbakery check-googlefonts fonts/ttf/GothicGumdrop-Regular.ttf
 ## License
 
 Gothic Gumdrop is licensed under the SIL Open Font License, Version 1.1. See `OFL.txt` for details.
+
+## Character Set
+
+![Gothic Gumdrop specimen](documentation/gothic-gumdrop-specimen.png)
