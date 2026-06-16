@@ -14,15 +14,20 @@ def main() -> None:
     draw = ImageDraw.Draw(image)
 
     title_font = ImageFont.truetype(str(FONT_PATH), 205)
-    alphabet_font = ImageFont.truetype(str(FONT_PATH), 118)
+    alphabet_font = ImageFont.truetype(str(FONT_PATH), 160)
     description_font = ImageFont.truetype(str(FONT_PATH), 58)
 
     ink = "#ffffff"
 
-    draw.text((100, 115), "Gothic Gumdrop", font=title_font, fill=ink)
-    draw.text((106, 340), "A cute, bubbly blackletter", font=description_font, fill=ink)
-    draw.text((100, 510), "ABCDEFGHIJKLM", font=alphabet_font, fill=ink)
-    draw.text((100, 670), "NOPQRSTUVWXYZ", font=alphabet_font, fill=ink)
+    def draw_centered(text: str, y: int, font: ImageFont.FreeTypeFont) -> None:
+        left, _, right, _ = draw.textbbox((0, y), text, font=font)
+        x = (width - (right - left)) // 2
+        draw.text((x, y), text, font=font, fill=ink)
+
+    draw_centered("GOTHIC GUMDROP", 115, title_font)
+    draw_centered("A cute, bubbly blackletter", 340, description_font)
+    draw_centered("ABCDEFGHIJKLMNOPQRSTUVWXYZ", 505, alphabet_font)
+    draw_centered("abcdefghijklmnopqrstuvwxyz", 675, alphabet_font)
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     image.save(OUT_PATH)
