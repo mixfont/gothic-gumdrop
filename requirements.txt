@@ -1,0 +1,5 @@
+fonttools
+fontbakery
+gftools
+shaperglot
+Pillow

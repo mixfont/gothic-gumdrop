@@ -1,0 +1,19 @@
+name: Build and QA
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - run: pip install -r requirements.txt
+      - run: bash sources/build.sh
+      - run: fontbakery check-universal fonts/ttf/GothicGumdrop-Regular.ttf
+      - run: fontbakery check-googlefonts fonts/ttf/GothicGumdrop-Regular.ttf
