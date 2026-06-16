@@ -5,3 +5,4 @@ Source URLs for the README specimen images:
 - https://static.mixfont.com/assets/20260616-000142-gothic-gumdrop-0r4sx039.webp
 - https://static.mixfont.com/assets/20260616-002324-32521523_355c_4a73_9806_a2ed34b7ec1e_1_v1-a3jwgkru.webp
 - https://static.mixfont.com/assets/20260616-002329-32521523_355c_4a73_9806_a2ed34b7ec1e_2_v1-12pqhbp9.webp
+- https://static.mixfont.com/assets/20260616-010412-43ecb6fe-823a-43d9-9c2e-17274bc62335-m8v1kzke.webp
