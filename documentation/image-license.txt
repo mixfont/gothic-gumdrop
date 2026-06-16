@@ -1,1 +1,7 @@
-The specimen image in this directory is generated from Gothic Gumdrop and is distributed under the same SIL Open Font License, Version 1.1.
+The specimen images in this directory are generated from Gothic Gumdrop and are distributed under the same SIL Open Font License, Version 1.1.
+
+Source URLs for the README specimen images:
+
+- https://static.mixfont.com/assets/20260616-000142-gothic-gumdrop-0r4sx039.webp
+- https://static.mixfont.com/assets/20260616-002324-32521523_355c_4a73_9806_a2ed34b7ec1e_1_v1-a3jwgkru.webp
+- https://static.mixfont.com/assets/20260616-002329-32521523_355c_4a73_9806_a2ed34b7ec1e_2_v1-12pqhbp9.webp
