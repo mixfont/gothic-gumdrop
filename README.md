@@ -1,6 +1,6 @@
 # Gothic Gumdrop
 
-Gothic Gumdrop is a, cute, and bubbly blackletter font. This came out of a project to explore and combine unique or unrelated styles. There are many blackletter fonts, and many cute bubble fonts, but none that really combined the two into a single typeface. Great for posters, display use, or metal bands that have a softer side.
+Gothic Gumdrop is a cute, bubbly blackletter font. This came out of a project to explore and combine unique or unrelated styles. There are many blackletter fonts, and many cute bubble fonts, but none that really combined the two into a single typeface. Great for posters, display use, or metal bands that have a softer side.
 
 ![Gothic Gumdrop title specimen](documentation/readme-images/gothic-gumdrop-01.webp)
 
