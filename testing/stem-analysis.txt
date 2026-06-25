@@ -1,0 +1,24 @@
+Stem analysis for /Users/ericlu/normal/gothic-gumdrop/fonts/ttf/GothicGumdrop-Regular.ttf
+
+Method: sampled filled outline spans across each glyph. Values are font units.
+Diagonal and bowl-heavy glyphs can be false positives; use this as a review queue.
+
+Uppercase: vertical median 114.5, horizontal median 116.6
+  Too few horizontal samples: V
+
+Lowercase: vertical median 106.7, horizontal median 116.4
+  Too few horizontal samples: h n
+
+Digits: vertical median 111.6, horizontal median 107.1
+
+Largest vertical-stem deviations:
+  Uppercase: N 91.6 (-22.9), V 97.7 (-16.9), T 98.5 (-16.0), W 103.0 (-11.5), M 103.3 (-11.2), S 124.6 (+10.1), F 104.7 (-9.9), I 123.3 (+8.8)
+  Lowercase: i 93.8 (-12.9), l 95.8 (-10.9), w 117.2 (+10.5), j 96.6 (-10.1), x 98.0 (-8.7), f 98.5 (-8.2), a 111.8 (+5.1), h 102.1 (-4.6)
+  Digits: 7 69.4 (-42.2), 4 105.4 (-6.2), 1 107.9 (-3.7), 2 108.2 (-3.4), 0 114.8 (+3.2), 6 113.5 (+1.9), 8 113.2 (+1.7), 9 112.4 (+0.8)
+
+Possible vertical stem inconsistencies:
+  Uppercase N (uni004E): vertical 91.6 (-22.9)
+  Digits 7 (uni0037): vertical 69.4 (-42.2)
+
+Horizontal span values are shown in the PNG but are not flagged by default.
+Use --include-horizontal for a broader, noisier review queue.
