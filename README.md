@@ -25,7 +25,7 @@ pip install -r requirements.txt
 Build the TTF from source:
 
 ```sh
-bash sources/build.sh
+bash build.sh
 ```
 
 The built font is written to `fonts/ttf/GothicGumdrop-Regular.ttf`.

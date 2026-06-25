@@ -14,6 +14,6 @@ jobs:
         with:
           python-version: "3.x"
       - run: pip install -r requirements.txt
-      - run: bash sources/build.sh
+      - run: bash build.sh
       - run: fontbakery check-universal fonts/ttf/GothicGumdrop-Regular.ttf
       - run: fontbakery check-googlefonts fonts/ttf/GothicGumdrop-Regular.ttf

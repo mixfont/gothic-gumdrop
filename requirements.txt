@@ -1,5 +1,6 @@
 fonttools
 fontbakery
+fontmake
 gftools
 shaperglot
 Pillow
