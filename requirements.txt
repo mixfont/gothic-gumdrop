@@ -4,3 +4,6 @@ fontmake
 gftools
 shaperglot
 Pillow
+uharfbuzz
+freetype-py
+ttfautohint-py
