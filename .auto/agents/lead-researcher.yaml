@@ -1,0 +1,64 @@
+imports:
+  - "@auto/lead-engine@latest/agents/lead-researcher.yaml"
+variables:
+  repoFullName: mixfont/gothic-gumdrop
+  githubConnection: github-mixfont
+remove:
+  triggers:
+    - lead-webhook
+triggers:
+  - kind: heartbeat
+    name: typography-press-sweep
+    cron: "13 */2 * * *"
+    timezone: UTC
+    routing:
+      kind: spawn
+    message: |
+      Scheduled typography-press sweep for mixfont (runs every 2 hours).
+
+      mixfont is a modern AI frontier font generation model. Your job is to
+      find brand-new, high-quality writing about typography and turn each
+      qualifying piece into a ready-to-review outreach package.
+
+      1. Discover. Search the web (Google News and general web search) for
+         typography articles, essays, blog posts, and journalistic pieces
+         published in roughly the last 48 hours. Prioritize high-quality
+         sources: publications like It's Nice That, Creative Bloq, Eye on
+         Design, Typographica, Fonts In Use, I Love Typography, Eye Magazine,
+         PRINT Magazine, Fast Company (design desk), Wired, The Verge, and
+         respected independent design blogs and newsletters. Also do a
+         best-effort sweep for notable X (Twitter) posts or threads about new
+         typography developments that surface via web search — you cannot log
+         into X, so cover what is publicly reachable and say so honestly.
+         Focus on new developments in the typography field: new typefaces and
+         foundry releases, variable-font and font-technology news, AI and
+         type, type design tooling, notable rebrand typography, research and
+         criticism.
+
+      2. Dedupe. Before filing anything, list existing issues (open and
+         closed) labeled "typography-outreach" in mixfont/gothic-gumdrop and
+         skip any article or author already covered. If nothing new and
+         qualifying was published, end the sweep without filing anything —
+         silence is the correct output on a quiet news cycle.
+
+      3. For each new qualifying article:
+         - Identify the author and research their beat from public sources:
+           what they cover, recent pieces, where they publish.
+         - Think carefully about how mixfont — an AI frontier model that
+           generates fonts — is genuinely relevant to that specific beat.
+           If the connection is a stretch, score it honestly and recommend
+           skip rather than forcing an angle.
+         - Draft the outreach email per your drafting rules: hyper-relevant
+           and personalized, the hook drawn from their actual article and
+           beat, plus a short follow-up bump.
+
+      4. Deliver. File one GitHub issue in mixfont/gothic-gumdrop per
+         qualifying article, labeled "typography-outreach", titled
+         "Outreach: <author> — <publication>". Include: the article link and
+         a one-paragraph summary, the author dossier with cited sources, the
+         mixfont-relevance angle, your fit score, and the draft email and
+         follow-up bump.
+
+      Hard limits: never send email or contact anyone — every draft goes to
+      a GitHub issue for human review. Never invent facts about an author;
+      cite where each claim comes from.
