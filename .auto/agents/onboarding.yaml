@@ -1,0 +1,5 @@
+imports:
+  - "@auto/onboarding@latest/agents/onboarding.yaml"
+variables:
+  repoFullName: mixfont/gothic-gumdrop
+  githubConnection: github-mixfont
