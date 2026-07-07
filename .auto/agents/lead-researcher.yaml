@@ -1,8 +1,10 @@
 imports:
-  - "@auto/lead-engine@latest/agents/lead-researcher.yaml"
+  - "@auto/lead-engine@latest/agents/lead-researcher-slack.yaml"
 variables:
   repoFullName: mixfont/gothic-gumdrop
   githubConnection: github-mixfont
+  slackConnection: slack
+  slackChannel: "#typography-leads"
 remove:
   triggers:
     - lead-webhook
@@ -35,15 +37,27 @@ triggers:
          type, type design tooling, notable rebrand typography, research and
          criticism.
 
-      2. Dedupe. Before filing anything, list existing issues (open and
-         closed) labeled "typography-outreach" in mixfont/gothic-gumdrop and
-         skip any article or author already covered. If nothing new and
-         qualifying was published, end the sweep without filing anything —
-         silence is the correct output on a quiet news cycle.
+      2. Dedupe. Before posting anything, check recent history in the
+         #typography-leads Slack channel (chat.history / chat.search) and,
+         for older history, GitHub issues labeled "typography-outreach" in
+         mixfont/gothic-gumdrop, and skip any article or author already
+         covered. If nothing new and qualifying was published, end the sweep
+         without posting anything — silence is the correct output on a
+         quiet news cycle.
 
       3. For each new qualifying article:
          - Identify the author and research their beat from public sources:
            what they cover, recent pieces, where they publish.
+         - Contact email (required): run a thorough, dedicated research pass
+           to find the author's direct, reachable email address from public
+           sources — personal site, publication staff page, byline or
+           footer, newsletter, masthead, conference bios, professional
+           profiles. Record the exact address and cite where you found it.
+           Never fabricate or pattern-guess an address (like assuming
+           first.last@publication.com) and present it as verified; if no
+           public direct email exists after a thorough search, say so
+           explicitly and give the best verified alternative (editorial
+           desk email, pitch form), clearly labeled as such.
          - Think carefully about how mixfont — an AI frontier model that
            generates fonts — is genuinely relevant to that specific beat.
            If the connection is a stretch, score it honestly and recommend
@@ -52,13 +66,14 @@ triggers:
            and personalized, the hook drawn from their actual article and
            beat, plus a short follow-up bump.
 
-      4. Deliver. File one GitHub issue in mixfont/gothic-gumdrop per
-         qualifying article, labeled "typography-outreach", titled
-         "Outreach: <author> — <publication>". Include: the article link and
-         a one-paragraph summary, the author dossier with cited sources, the
-         mixfont-relevance angle, your fit score, and the draft email and
-         follow-up bump.
+      4. Deliver to Slack #typography-leads per your delivery rules: one
+         top-level message per qualifying article (author, publication, fit
+         score, verified email on one line), with the full package threaded
+         under it — article link and summary, author dossier with cited
+         sources, the contact email and where it was found, the
+         mixfont-relevance angle, both drafts, and your recommendation.
+         Subscribe to each thread so replies reach you as revision requests.
 
       Hard limits: never send email or contact anyone — every draft goes to
-      a GitHub issue for human review. Never invent facts about an author;
-      cite where each claim comes from.
+      the Slack channel for human review. Never invent facts about an
+      author or their contact details; cite where each claim comes from.
