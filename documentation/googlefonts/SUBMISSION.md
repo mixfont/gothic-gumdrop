@@ -42,9 +42,10 @@ in the environment described in the root README.
 The Google Fonts package audit uses FontBakery 1.1.0 with network checks enabled
 and no exclusions. The measured result is **155 PASS, 2 FAIL, 13 WARN, 10 INFO,
 56 SKIP, and no ERROR/FATAL**. The failures are `googlefonts/glyph_coverage` and
-`googlefonts/glyphsets/shape_languages`. CI intentionally fails until resolved.
-Reports are generated at `qa/googlefonts-package.{json,md,log}` and uploaded as
-CI artifacts, not committed to the repository.
+`googlefonts/glyphsets/shape_languages`. The automatic GitHub Actions workflow
+has been removed; these checks remain available to run locally before submission.
+Reports are generated at `qa/googlefonts-package.{json,md,log}` and are not
+committed to the repository.
 
 Warnings cover nonzero-width marks, unreachable glyphs, alternate caron review,
 Q's contour count, missing ligature carets, the multiply sign's width, soft hyphen,
