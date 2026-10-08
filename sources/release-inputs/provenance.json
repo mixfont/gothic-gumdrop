@@ -1,0 +1,8 @@
+{
+  "archive": "Gothic GumDrop_Final Fonts.zip",
+  "archive_sha256": "057f570b9af4196bce9b709c702b6dcdf597940b234babd57b467e81b770f669",
+  "inputs": {
+    "GothicGumDrop-Regular.ttf": "530d4c026cd3942f92b5b48d0224a5beb4058135ab84131e039bc10991c9ba88"
+  },
+  "fontlab_source_sha256": "dba3507d671059f3aea375ef287d5092506862bd2b554c8897543f8b6120820c"
+}

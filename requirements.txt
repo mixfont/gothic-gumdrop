@@ -1,6 +1,10 @@
-fonttools
-fontbakery
-fontmake
-gftools
-shaperglot
-Pillow
+# Python 3.12; versions used for the October 2026 release audit.
+fonttools==4.63.0
+fontbakery[googlefonts]==1.1.0
+gftools==0.9.996
+
+# Pin QA character/language definitions and shaping to the audited versions.
+glyphsets==1.1.0
+gflanguages==0.7.7
+gfsubsets==2025.11.4
+uharfbuzz==0.55.0

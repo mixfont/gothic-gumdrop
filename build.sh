@@ -1,27 +1,14 @@
 #!/usr/bin/env bash
 set -euo pipefail
-
 cd "$(dirname "$0")"
 
-FONT="fonts/ttf/GothicGumdrop-Regular.ttf"
-
-if [[ -x ".venv/bin/fontmake" ]]; then
-  FONTMAKE=".venv/bin/fontmake"
+if [[ -n "${VIRTUAL_ENV:-}" ]]; then
+  PYTHON="$VIRTUAL_ENV/bin/python"
+elif [[ -x .venv/bin/python ]]; then
+  PYTHON=.venv/bin/python
 else
-  FONTMAKE="fontmake"
+  PYTHON=python3
 fi
 
-if [[ -x ".venv/bin/python" ]]; then
-  PYTHON=".venv/bin/python"
-else
-  PYTHON="python3"
-fi
-
-"$FONTMAKE" -g sources/GothicGumdrop-Regular.glyphs \
-  -o ttf \
-  --output-dir fonts/ttf \
-  --keep-overlaps \
-  --ttf-curves keep-quad \
-  --autohint
-
-"$PYTHON" scripts/cleanup_ttf.py "$FONT"
+# Packages compiled exports; see sources/README.md for the source-build blocker.
+"$PYTHON" sources/prepare_release.py

@@ -4,16 +4,31 @@ on:
   push:
   pull_request:
 
+permissions:
+  contents: read
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
-      - run: pip install -r requirements.txt
-      - run: bash build.sh
-      - run: fontbakery check-universal fonts/ttf/GothicGumdrop-Regular.ttf
-      - run: fontbakery check-googlefonts fonts/ttf/GothicGumdrop-Regular.ttf
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - name: Prepare release from supplied exports
+        run: bash build.sh
+      - name: Verify design preservation and repeatable packaging
+        run: python tools/verify_release.py
+      - name: Run full QA (fails until coverage and shaping are fixed)
+        run: python tools/run_qa.py
+      - name: Upload fonts, submission package, and QA reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gothic-gumdrop-review
+          path: |
+            fonts/ttf/GothicGumdrop-Regular.ttf
+            build/googlefonts/
+            qa/googlefonts-*

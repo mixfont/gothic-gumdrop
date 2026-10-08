@@ -1,3 +1,8 @@
-# This is the list of Gothic Gumdrop Project Authors.
+# Gothic Gumdrop Project Authors
 
-Eric Lu
+Eric Lu (https://www.mixfont.com)
+Alex Kaczun (https://www.typeinnovations.com/)
+
+# Copyright holders credited in the October 2026 delivery
+Mixfont LLC (https://www.mixfont.com)
+Type Innovations Inc. (https://www.typeinnovations.com/)
