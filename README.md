@@ -11,8 +11,12 @@ We are proud to release Gothic Gumdrop as the world's first AI-generated typefac
 
 ## Font and source
 
-- [Regular TTF](fonts/ttf/GothicGumdrop-Regular.ttf): version 1.100, 400 glyphs,
+- [Prepared submission TTF](fonts/ttf/GothicGumdrop-Regular.ttf): version 1.100, 400 glyphs,
   386 encoded codepoints; font family name **Gothic Gumdrop**.
+- Original desktop fonts: [TTF](fonts/OpenType-TT/GothicGumDrop-Regular.ttf) and
+  [OTF](fonts/OpenType-PS/GothicGumDrop-Regular.otf), unchanged from the delivery.
+- Original webfonts: [TrueType versions](fonts/Web-TT/) and
+  [PostScript versions](fonts/Web-PS/), unchanged from the delivery.
 - [FontLab source](sources/GothicGumDrop-Regular.vfc): preserved exactly as supplied.
 - [Source and build status](sources/README.md).
 
