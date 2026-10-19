@@ -5,9 +5,28 @@
 
 Gothic Gumdrop is a cute, bubbly blackletter font. Its bold blend of traditional blackletter with modern charm makes it perfect for headlines, display use, or even metal band posters that need a softer side. Gothic Gumdrop preserves the thickness and ornateness of a traditional blackletter while also expressing an endearing, mellow side in each letter. It brings a new, playful spirit to a centuries-old lettering tradition.
 
-The design and initial glyphset of Gothic Gumdrop were initially created by the artificial intelligence model developed by Mixfont and its founder, Eric Lu. The original style, letters, glyphs, and shapes were all generated from a single prompt: "a cute, bubbly blackletter font". For the latest release, Mixfont has partnered with type designer Alex Kaczun of Type Innovations to improve the initially AI-generated design into a fully professional, production-ready typeface. Through this close collaboration, Alex improved upon the initial design, ensuring that letterforms, alignments, kerning, and other details are all ready for professional use. 
+The design and initial glyphset of Gothic Gumdrop were initially created by the artificial intelligence model developed by Mixfont and its founder, Eric Lu. The original style, letters, glyphs, and shapes were all generated from a single prompt: "a cute, bubbly blackletter font". For the latest release, Mixfont has partnered with type designer Alex Kaczun of Type Innovations to improve the initially AI-generated design into a fully professional, production-ready typeface. Through this close collaboration, Alex improved upon the initial design, ensuring that letterforms, alignments, kerning, and other details are all ready for professional use.
 
 We are proud to release Gothic Gumdrop as the world's first AI-generated typeface. This is a major milestone that we believe is just the beginning of an evolving relationship between artificial intelligence and traditional type design.
+
+## Current release — v1.102
+
+- [Download the Regular OTF](fonts/otf/GothicGumdrop-Regular.otf)
+- [Editable UFO source](sources/GothicGumdrop-Regular.ufo)
+
+## Building from source
+
+The `.ufo` source is a directory package; its glyph files are part of the source.
+To build the TTF with Python 3.12:
+
+```sh
+python3.12 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+bash build.sh
+```
+
+The output is `fonts/ttf/GothicGumdrop-Regular.ttf`. The supplied OTF stays unchanged.
+The generated TTF still needs Google Fonts QA and rendering review before submission.
 
 ## License and credits
 

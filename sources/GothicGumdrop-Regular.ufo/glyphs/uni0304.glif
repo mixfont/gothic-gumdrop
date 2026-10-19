@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0304" format="2">
+  <unicode hex="0304"/>
+  <anchor x="-122" y="541" name="_topmacron"/>
+  <anchor x="-122" y="647" name="topgrave"/>
+  <anchor x="-122" y="647" name="topacute"/>
+  <anchor x="-122" y="647" name="topcircumflex"/>
+  <anchor x="-122" y="647" name="toptilde"/>
+  <anchor x="-122" y="647" name="topmacron"/>
+  <anchor x="-122" y="647" name="topbreve"/>
+  <anchor x="-122" y="647" name="topdotaccent"/>
+  <anchor x="-122" y="647" name="topdieresis"/>
+  <anchor x="-122" y="647" name="topring"/>
+  <anchor x="-122" y="647" name="tophungarumlaut"/>
+  <anchor x="-122" y="647" name="topcaron"/>
+  <outline>
+    <contour>
+      <point x="-32" y="626" type="curve"/>
+      <point x="-58" y="627"/>
+      <point x="-122" y="628"/>
+      <point x="-223" y="627" type="curve"/>
+      <point x="-225" y="566" type="line"/>
+      <point x="-33" y="566" type="line"/>
+      <point x="-31" y="578"/>
+      <point x="-30" y="586"/>
+      <point x="-29" y="601" type="curve"/>
+      <point x="-29" y="610"/>
+      <point x="-30" y="620"/>
+    </contour>
+  </outline>
+</glyph>

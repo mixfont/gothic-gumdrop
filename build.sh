@@ -10,5 +10,8 @@ else
   PYTHON=python3
 fi
 
-# Packages compiled exports; see sources/README.md for the source-build blocker.
-"$PYTHON" sources/prepare_release.py
+# Build a TrueType export from the editable UFO source.
+export SOURCE_DATE_EPOCH=1792188073
+"$PYTHON" -m fontmake -u sources/GothicGumdrop-Regular.ufo -o ttf \
+  --output-path fonts/ttf/GothicGumdrop-Regular.ttf --validate-ufo \
+  --no-production-names

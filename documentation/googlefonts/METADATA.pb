@@ -11,7 +11,7 @@ fonts {
   filename: "GothicGumdrop-Regular.ttf"
   post_script_name: "GothicGumdrop-Regular"
   full_name: "Gothic Gumdrop Regular"
-  copyright: "Copyright 2026 The Gothic Gumdrop Project Authors (https://github.com/mixfont/gothic-gumdrop). Copyright 2026 Mixfont (https://www.mixfont.com) and Type Innovations (https://www.typeinnovations.com/). All rights reserved."
+  copyright: "Copyright 2026 The Gothic Gumdrop Project Authors (https://github.com/mixfont/gothic-gumdrop)"
 }
 subsets: "latin"
 subsets: "latin-ext"
