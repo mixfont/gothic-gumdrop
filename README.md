@@ -12,11 +12,11 @@ We are proud to release Gothic Gumdrop as the world's first AI-generated typefac
 ## Current release — v1.102
 
 - [Download the Regular OTF](fonts/otf/GothicGumdrop-Regular.otf)
+- [Download the Regular TTF](fonts/ttf/GothicGumdrop-Regular.ttf)
 - [Editable UFO source](sources/GothicGumdrop-Regular.ufo)
 
 ## Building from source
 
-The `.ufo` source is a directory package; its glyph files are part of the source.
 To build the TTF with Python 3.12:
 
 ```sh
@@ -25,8 +25,7 @@ python3.12 -m venv .venv
 bash build.sh
 ```
 
-The output is `fonts/ttf/GothicGumdrop-Regular.ttf`. The supplied OTF stays unchanged.
-The generated TTF still needs Google Fonts QA and rendering review before submission.
+The output is `fonts/ttf/GothicGumdrop-Regular.ttf`.
 
 ## License and credits
 
