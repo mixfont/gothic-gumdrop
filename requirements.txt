@@ -2,3 +2,6 @@
 fontmake==3.12.1
 fonttools==4.63.0
 ufo2ft==3.8.2
+glyphsLib==6.13.1
+gftools==0.9.996
+ttfautohint-py==0.6.1

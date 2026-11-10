@@ -9,15 +9,16 @@ The design and initial glyphset of Gothic Gumdrop were initially created by the 
 
 We are proud to release Gothic Gumdrop as the world's first AI-generated typeface. This is a major milestone that we believe is just the beginning of an evolving relationship between artificial intelligence and traditional type design.
 
-## Current release — v1.102
+## Current release — v1.102 (November 2026 revision)
 
 - [Download the Regular OTF](fonts/otf/GothicGumdrop-Regular.otf)
 - [Download the Regular TTF](fonts/ttf/GothicGumdrop-Regular.ttf)
-- [Editable UFO source](sources/GothicGumdrop-Regular.ufo)
+- [Canonical UFO source](sources/GothicGumdrop-Regular.ufo)
+- [Companion Glyphs source](sources/GothicGumdrop-Regular.glyphs)
 
 ## Building from source
 
-To build the TTF with Python 3.12:
+To build the autohinted TTF with Python 3.12:
 
 ```sh
 python3.12 -m venv .venv
@@ -25,7 +26,16 @@ python3.12 -m venv .venv
 bash build.sh
 ```
 
-The output is `fonts/ttf/GothicGumdrop-Regular.ttf`.
+`build.sh` runs `gftools builder` with `sources/config.yaml`. The output is
+`fonts/ttf/GothicGumdrop-Regular.ttf`. The OTF is the supplied November revision,
+preserved byte-for-byte; the build does not overwrite it.
+The build fixes timestamps and uses the tool versions in `requirements.txt`.
+
+The canonical build input is the supplied `.ufo` directory, which reproduces
+both the outlines and layout tables of the supplied OTF. The `.glyphs` file is
+a companion source, not a second build input; its Regular instance weight has
+been aligned with the master. Keep both sources in sync when editing. The
+supplied revision retains the internal font version 1.102.
 
 ## License and credits
 

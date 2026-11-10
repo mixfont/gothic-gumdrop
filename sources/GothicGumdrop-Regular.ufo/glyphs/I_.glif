@@ -2,31 +2,20 @@
 <glyph name="I" format="2">
   <advance width="237"/>
   <unicode hex="0049"/>
-  <anchor x="124" y="695" name="topgrave"/>
-  <anchor x="113" y="696" name="topacute"/>
-  <anchor x="123" y="696" name="topcircumflex"/>
-  <anchor x="119" y="695" name="toptilde"/>
-  <anchor x="123" y="695" name="topmacron"/>
-  <anchor x="130" y="685" name="topbreve"/>
-  <anchor x="121" y="698" name="topdotaccent"/>
-  <anchor x="125" y="695" name="topdieresis"/>
-  <anchor x="122" y="694" name="topring"/>
-  <anchor x="122" y="694" name="tophungarumlaut"/>
-  <anchor x="122" y="694" name="topcaron"/>
-  <anchor x="118" y="-7" name="bottomcommaaccent"/>
-  <anchor x="118" y="-7" name="bottomcedilla"/>
+  <anchor x="122" y="695" name="top"/>
+  <anchor x="118" y="-7" name="bottom"/>
   <anchor x="109" y="29" name="ogonek"/>
   <outline>
     <contour>
       <point x="171" y="301" type="curve" smooth="yes"/>
       <point x="171" y="374" type="line" smooth="yes"/>
       <point x="171" y="420"/>
-      <point x="170" y="465"/>
+      <point x="169.84975570575114" y="465.0492644474043"/>
       <point x="185" y="511" type="curve" smooth="yes"/>
-      <point x="187" y="517"/>
-      <point x="189" y="522"/>
-      <point x="191" y="526" type="curve"/>
-      <point x="196" y="538"/>
+      <point x="186.98038179162205" y="517.0065038049944"/>
+      <point x="189.1388709618785" y="521.9335274864496"/>
+      <point x="191" y="526" type="curve" smooth="yes"/>
+      <point x="196.41009435738002" y="537.8207816596131"/>
       <point x="200" y="547"/>
       <point x="200" y="557" type="curve" smooth="yes"/>
       <point x="200" y="582"/>
@@ -36,9 +25,9 @@
       <point x="34" y="577"/>
       <point x="34" y="550" type="curve" smooth="yes"/>
       <point x="34" y="536"/>
-      <point x="40" y="526"/>
+      <point x="40.26551340041642" y="526.1386167479351"/>
       <point x="48" y="511" type="curve" smooth="yes"/>
-      <point x="70" y="466"/>
+      <point x="70.78940049440496" y="466.39458300715467"/>
       <point x="74" y="407"/>
       <point x="74" y="356" type="curve" smooth="yes"/>
       <point x="74" y="266"/>

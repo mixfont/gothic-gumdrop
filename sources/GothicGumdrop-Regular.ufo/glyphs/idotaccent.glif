@@ -1,27 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="idotaccent" format="2">
   <advance width="218"/>
-  <anchor x="109" y="696" name="topgrave"/>
-  <anchor x="109" y="696" name="topacute"/>
-  <anchor x="109" y="696" name="topcircumflex"/>
-  <anchor x="109" y="696" name="toptilde"/>
-  <anchor x="109" y="696" name="topmacron"/>
-  <anchor x="109" y="696" name="topbreve"/>
-  <anchor x="109" y="696" name="topdotaccent"/>
-  <anchor x="109" y="696" name="topdieresis"/>
-  <anchor x="109" y="696" name="topring"/>
-  <anchor x="109" y="696" name="tophungarumlaut"/>
-  <anchor x="109" y="696" name="topcaron"/>
-  <anchor x="109" y="-12" name="bottomcommaaccent"/>
-  <anchor x="109" y="-12" name="bottomcedilla"/>
+  <anchor x="109" y="696" name="top"/>
+  <anchor x="109" y="-12" name="bottom"/>
   <anchor x="97" y="29" name="ogonek"/>
   <outline>
     <contour>
       <point x="152" y="248" type="curve" smooth="yes"/>
       <point x="152" y="290"/>
-      <point x="158" y="353"/>
-      <point x="176" y="390" type="curve"/>
-      <point x="180" y="400"/>
+      <point x="159.34849383140048" y="352.3738476280514"/>
+      <point x="176" y="390" type="curve" smooth="yes"/>
+      <point x="180.35867049011014" y="399.8489589073487"/>
       <point x="182" y="404"/>
       <point x="182" y="408" type="curve" smooth="yes"/>
       <point x="182" y="428"/>
@@ -31,33 +20,33 @@
       <point x="36" y="433"/>
       <point x="36" y="408" type="curve" smooth="yes"/>
       <point x="36" y="404"/>
-      <point x="37" y="400"/>
-      <point x="42" y="390" type="curve"/>
-      <point x="60" y="347"/>
+      <point x="37.33879105863592" y="400.1623388648946"/>
+      <point x="42" y="390" type="curve" smooth="yes"/>
+      <point x="61.43450249255668" y="347.6290180327762"/>
       <point x="66" y="294"/>
       <point x="66" y="248" type="curve" smooth="yes"/>
       <point x="66" y="202"/>
-      <point x="60" y="149"/>
-      <point x="42" y="106" type="curve"/>
-      <point x="37" y="96"/>
+      <point x="61.43450249255668" y="148.37098196722383"/>
+      <point x="42" y="106" type="curve" smooth="yes"/>
+      <point x="37.33879105863592" y="95.83766113510538"/>
       <point x="36" y="92"/>
       <point x="36" y="88" type="curve" smooth="yes"/>
       <point x="36" y="83"/>
-      <point x="38" y="79"/>
-      <point x="40" y="73" type="curve"/>
-      <point x="48" y="53"/>
+      <point x="37.8246208853127" y="78.93866362975562"/>
+      <point x="40" y="73" type="curve" smooth="yes"/>
+      <point x="47.409074287275395" y="52.773640510323304"/>
       <point x="84" y="-16"/>
       <point x="109" y="-16" type="curve" smooth="yes"/>
       <point x="134" y="-16"/>
-      <point x="170" y="53"/>
-      <point x="178" y="73" type="curve"/>
-      <point x="180" y="79"/>
+      <point x="170.5909257127246" y="52.773640510323304"/>
+      <point x="178" y="73" type="curve" smooth="yes"/>
+      <point x="180.1753791146873" y="78.93866362975562"/>
       <point x="182" y="83"/>
       <point x="182" y="88" type="curve" smooth="yes"/>
       <point x="182" y="92"/>
-      <point x="180" y="96"/>
-      <point x="176" y="106" type="curve"/>
-      <point x="158" y="143"/>
+      <point x="180.35867049011014" y="96.15104109265131"/>
+      <point x="176" y="106" type="curve" smooth="yes"/>
+      <point x="159.34849383140048" y="143.6261523719486"/>
       <point x="152" y="206"/>
     </contour>
     <contour>

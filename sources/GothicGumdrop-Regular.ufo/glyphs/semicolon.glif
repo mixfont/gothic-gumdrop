@@ -20,27 +20,27 @@
     <contour>
       <point x="167" y="61" type="curve" smooth="yes"/>
       <point x="167" y="78"/>
-      <point x="148" y="106"/>
-      <point x="129" y="123" type="curve"/>
-      <point x="119" y="131"/>
+      <point x="148.46156421021266" y="106.53040624387567"/>
+      <point x="129" y="123" type="curve" smooth="yes"/>
+      <point x="119.22440975873305" y="131.2727163274735"/>
       <point x="113" y="136"/>
       <point x="105" y="136" type="curve" smooth="yes"/>
       <point x="98" y="136"/>
-      <point x="90" y="131"/>
+      <point x="89.87193083087931" y="131.1417960753198"/>
       <point x="81" y="123" type="curve" smooth="yes"/>
-      <point x="62" y="105"/>
-      <point x="44" y="82"/>
+      <point x="61.71678551666095" y="105.30373940094847"/>
+      <point x="43.50009991009788" y="82.01499350549426"/>
       <point x="43" y="57" type="curve" smooth="yes"/>
-      <point x="43" y="44"/>
-      <point x="51" y="28"/>
+      <point x="42.74015583899423" y="44.002597143583216"/>
+      <point x="51.21739540265264" y="28.202861943361974"/>
       <point x="68" y="10" type="curve" smooth="yes"/>
-      <point x="86" y="-10"/>
+      <point x="86.2388901829292" y="-9.782388250538641"/>
       <point x="87" y="-17"/>
       <point x="87" y="-26" type="curve" smooth="yes"/>
       <point x="87" y="-35"/>
-      <point x="79" y="-50"/>
+      <point x="79.25176504480824" y="-50.1331188552786"/>
       <point x="67" y="-73" type="curve" smooth="yes"/>
-      <point x="56" y="-93"/>
+      <point x="56.22021772711658" y="-93.11955004837901"/>
       <point x="50" y="-103"/>
       <point x="50" y="-110" type="curve" smooth="yes"/>
       <point x="50" y="-117"/>

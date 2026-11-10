@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni0327" format="2">
   <unicode hex="0327"/>
-  <anchor x="-113" y="-7" name="_bottomcedilla"/>
+  <anchor x="-113" y="-7" name="_bottom"/>
   <outline>
     <contour>
       <point x="-39" y="-106" type="curve" smooth="yes"/>
@@ -10,23 +10,23 @@
       <point x="-109" y="-31" type="curve"/>
       <point x="-78" y="1" type="line"/>
       <point x="-126" y="1" type="line"/>
-      <point x="-160" y="-36" type="line"/>
-      <point x="-164" y="-41"/>
+      <point x="-160" y="-36" type="line" smooth="yes"/>
+      <point x="-164.1686976494593" y="-40.86024278276225"/>
       <point x="-167" y="-46"/>
       <point x="-167" y="-50" type="curve" smooth="yes"/>
       <point x="-167" y="-64"/>
-      <point x="-139" y="-74"/>
+      <point x="-139.13613245849692" y="-74.21830086401538"/>
       <point x="-120" y="-86" type="curve" smooth="yes"/>
-      <point x="-110" y="-92"/>
+      <point x="-110.06934410312269" y="-92.11408811335068"/>
       <point x="-103" y="-98"/>
       <point x="-103" y="-106" type="curve" smooth="yes"/>
       <point x="-103" y="-116"/>
       <point x="-109" y="-122"/>
       <point x="-120" y="-122" type="curve" smooth="yes"/>
       <point x="-127" y="-122"/>
-      <point x="-136" y="-118"/>
+      <point x="-136.01792635969093" y="-118.0312092083271"/>
       <point x="-143" y="-114" type="curve" smooth="yes"/>
-      <point x="-155" y="-107"/>
+      <point x="-155.03112949330824" y="-107.05363957778981"/>
       <point x="-163" y="-103"/>
       <point x="-167" y="-103" type="curve" smooth="yes"/>
       <point x="-175" y="-103"/>

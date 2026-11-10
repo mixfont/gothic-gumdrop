@@ -6,30 +6,30 @@
     <contour>
       <point x="323" y="216" type="curve" smooth="yes"/>
       <point x="323" y="276"/>
-      <point x="316" y="307"/>
+      <point x="316.22940912000075" y="307.508928390992"/>
       <point x="259" y="333" type="curve" smooth="yes"/>
-      <point x="236" y="343"/>
+      <point x="236.09001767530137" y="343.2045435900875"/>
       <point x="222" y="346"/>
       <point x="222" y="353" type="curve" smooth="yes"/>
       <point x="222" y="360"/>
-      <point x="234" y="365"/>
+      <point x="233.99358337281237" y="365.0176899883651"/>
       <point x="245" y="369" type="curve" smooth="yes"/>
-      <point x="295" y="387"/>
-      <point x="318" y="409"/>
+      <point x="294.97099658705395" y="387.08036227780417"/>
+      <point x="318.0439803977265" y="408.99189251906233"/>
       <point x="323" y="436" type="curve" smooth="yes"/>
-      <point x="329" y="469"/>
-      <point x="325" y="528"/>
+      <point x="329.0537377569087" y="468.9901842851867"/>
+      <point x="324.5000694010745" y="527.9875037593654"/>
       <point x="324" y="558" type="curve" smooth="yes"/>
-      <point x="324" y="569"/>
-      <point x="318" y="581"/>
-      <point x="310" y="588" type="curve"/>
-      <point x="285" y="613"/>
+      <point x="323.8167430007853" y="568.9984733882588"/>
+      <point x="317.76262353168005" y="580.7376535537468"/>
+      <point x="310" y="588" type="curve" smooth="yes"/>
+      <point x="284.1818981802039" y="612.1542049842805"/>
       <point x="219" y="675"/>
       <point x="182" y="675" type="curve" smooth="yes"/>
       <point x="158" y="675"/>
-      <point x="126" y="666"/>
+      <point x="125.80171473921985" y="666.2478220072463"/>
       <point x="97" y="643" type="curve" smooth="yes"/>
-      <point x="69" y="620"/>
+      <point x="68.80381027540209" y="620.2409383977616"/>
       <point x="30" y="588"/>
       <point x="30" y="547" type="curve" smooth="yes"/>
       <point x="30" y="509"/>
@@ -48,9 +48,9 @@
       <point x="210" y="537"/>
       <point x="210" y="507" type="curve" smooth="yes"/>
       <point x="210" y="427"/>
-      <point x="203" y="394"/>
+      <point x="203.2073909483576" y="393.6037335650646"/>
       <point x="171" y="377" type="curve" smooth="yes"/>
-      <point x="167" y="375"/>
+      <point x="167.02499041909053" y="374.95078092150254"/>
       <point x="146" y="372"/>
       <point x="107" y="364" type="curve"/>
       <point x="105" y="353"/>
@@ -61,9 +61,9 @@
       <point x="128" y="321" type="curve" smooth="yes"/>
       <point x="132" y="321" type="line" smooth="yes"/>
       <point x="191" y="321"/>
-      <point x="205" y="292"/>
+      <point x="205.3193803831664" y="292.01537323841853"/>
       <point x="208" y="233" type="curve" smooth="yes"/>
-      <point x="210" y="183"/>
+      <point x="210.270594806859" y="183.01155734349123"/>
       <point x="210" y="148"/>
       <point x="208" y="129" type="curve" smooth="yes"/>
       <point x="206" y="110"/>
@@ -82,18 +82,18 @@
       <point x="26" y="170"/>
       <point x="26" y="130" type="curve" smooth="yes"/>
       <point x="26" y="114"/>
-      <point x="30" y="101"/>
+      <point x="29.765726528007406" y="100.8404704462466"/>
       <point x="38" y="89" type="curve" smooth="yes"/>
-      <point x="67" y="49"/>
+      <point x="66.20833863960847" y="48.43783004826823"/>
       <point x="124" y="-16"/>
       <point x="175" y="-16" type="curve" smooth="yes"/>
       <point x="200" y="-16"/>
-      <point x="215" y="-9"/>
+      <point x="215.10274878255117" y="-9.114143169455751"/>
       <point x="234" y="8" type="curve" smooth="yes"/>
-      <point x="258" y="30"/>
-      <point x="284" y="53"/>
+      <point x="258.1320874735404" y="29.855030408795933"/>
+      <point x="284.1633228763571" y="52.85721709520264"/>
       <point x="306" y="78" type="curve" smooth="yes"/>
-      <point x="324" y="99"/>
+      <point x="324.1364171868577" y="98.88229804461785"/>
       <point x="324" y="115"/>
       <point x="324" y="141" type="curve" smooth="yes"/>
       <point x="324" y="154"/>

@@ -6,23 +6,23 @@
     <contour>
       <point x="217" y="-21" type="curve"/>
       <point x="218" y="-18"/>
-      <point x="217" y="-13"/>
-      <point x="215" y="-7" type="curve"/>
+      <point x="216.8402926491982" y="-13.05089439383196"/>
+      <point x="215" y="-7" type="curve" smooth="yes"/>
       <point x="28" y="672" type="line" smooth="yes"/>
-      <point x="25" y="684"/>
+      <point x="24.85763088077141" y="683.9635076929185"/>
       <point x="16" y="683"/>
       <point x="1" y="683" type="curve" smooth="yes"/>
       <point x="-16" y="683"/>
       <point x="-22" y="683"/>
       <point x="-23" y="676" type="curve"/>
       <point x="-23" y="673"/>
-      <point x="-23" y="667"/>
-      <point x="-21" y="661" type="curve"/>
+      <point x="-22.84029264919821" y="667.050894393832"/>
+      <point x="-21" y="661" type="curve" smooth="yes"/>
       <point x="166" y="-18" type="line" smooth="yes"/>
       <point x="169" y="-29"/>
-      <point x="178" y="-29"/>
-      <point x="193" y="-29" type="curve"/>
-      <point x="210" y="-30"/>
+      <point x="178.00647249703437" y="-28.55939471427029"/>
+      <point x="193" y="-29" type="curve" smooth="yes"/>
+      <point x="210.02203818907637" y="-29.500215843037374"/>
       <point x="216" y="-28"/>
     </contour>
   </outline>

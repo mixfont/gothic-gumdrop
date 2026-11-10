@@ -2,19 +2,8 @@
 <glyph name="uni25CC" format="2">
   <advance width="540"/>
   <unicode hex="25CC"/>
-  <anchor x="276" y="511" name="topgrave"/>
-  <anchor x="265" y="512" name="topacute"/>
-  <anchor x="279" y="512" name="topcircumflex"/>
-  <anchor x="282" y="511" name="toptilde"/>
-  <anchor x="275" y="511" name="topmacron"/>
-  <anchor x="272" y="513" name="topbreve"/>
-  <anchor x="277" y="512" name="topdotaccent"/>
-  <anchor x="279" y="511" name="topdieresis"/>
-  <anchor x="277" y="512" name="topring"/>
-  <anchor x="285" y="511" name="tophungarumlaut"/>
-  <anchor x="277" y="512" name="topcaron"/>
-  <anchor x="270" y="34" name="bottomcommaaccent"/>
-  <anchor x="270" y="34" name="bottomcedilla"/>
+  <anchor x="277" y="512" name="top"/>
+  <anchor x="270" y="34" name="bottom"/>
   <anchor x="409" y="46" name="ogonek"/>
   <outline>
     <contour>

@@ -50,7 +50,7 @@
     <key>openTypeNameManufacturerURL</key>
     <string>https://www.mixfont.com, https://www.typeinnovations.com/</string>
     <key>openTypeNameUniqueID</key>
-    <string>Version 1.102;;GothicGumdrop-Regular;2026;FL842</string>
+    <string>GothicGumdrop-Regular</string>
     <key>openTypeNameVersion</key>
     <string>Version 1.102</string>
     <key>openTypeOS2CodePageRanges</key>
@@ -132,12 +132,6 @@
     <integer>900</integer>
     <key>openTypeOS2WinDescent</key>
     <integer>300</integer>
-    <key>postscriptBlueFuzz</key>
-    <integer>1</integer>
-    <key>postscriptBlueScale</key>
-    <real>0.039625</real>
-    <key>postscriptBlueShift</key>
-    <integer>7</integer>
     <key>postscriptBlueValues</key>
     <array>
       <integer>-16</integer>
@@ -147,8 +141,6 @@
       <integer>674</integer>
       <integer>674</integer>
     </array>
-    <key>postscriptDefaultWidthX</key>
-    <integer>0</integer>
     <key>postscriptFamilyBlues</key>
     <array/>
     <key>postscriptFamilyOtherBlues</key>
@@ -161,8 +153,6 @@
     <string>Gothic Gumdrop Regular</string>
     <key>postscriptIsFixedPitch</key>
     <false/>
-    <key>postscriptNominalWidthX</key>
-    <integer>343</integer>
     <key>postscriptOtherBlues</key>
     <array>
       <integer>-176</integer>

@@ -1,0 +1,6 @@
+sources:
+  - GothicGumdrop-Regular.ufo
+familyName: "Gothic Gumdrop"
+# Preserve the supplied OTF; build the Google Fonts TTF from source.
+buildOTF: false
+buildWebfont: false

@@ -10,3 +10,10 @@ qa/
 *.egg-info/
 
 .venv/
+
+# gftools builder intermediates.
+sources/build.ninja
+sources/.ninja_log
+sources/.ninja_deps
+sources/instance_ufos/
+sources/master_ufo/

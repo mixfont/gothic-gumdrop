@@ -10,25 +10,8 @@ else
   PYTHON=python3
 fi
 
-# Build a TrueType export from the editable UFO source.
-export SOURCE_DATE_EPOCH=1792188073
-"$PYTHON" -m fontmake -u sources/GothicGumdrop-Regular.ufo -o ttf \
-  --output-path fonts/ttf/GothicGumdrop-Regular.ttf --validate-ufo \
-  --no-production-names
-
-# Apply the Google Fonts rendering setup for an unhinted TrueType export.
-"$PYTHON" - <<'PY'
-from fontTools.ttLib import TTFont, newTable
-from fontTools.ttLib.tables.ttProgram import Program
-
-path = "fonts/ttf/GothicGumdrop-Regular.ttf"
-with TTFont(path, recalcTimestamp=False) as font:
-    font["gasp"] = newTable("gasp")
-    font["gasp"].gaspRange = {65535: 15}
-    font["prep"] = newTable("prep")
-    font["prep"].program = Program()
-    font["prep"].program.fromAssembly(
-        ["PUSHW[]", "511", "SCANCTRL[]", "PUSHB[]", "4", "SCANTYPE[]"]
-    )
-    font.save(path)
-PY
+# Builder launches fontmake and its other tools as subprocesses.
+export PATH="$(dirname "$("$PYTHON" -c 'import sys; print(sys.executable)')"):$PATH"
+# Fix timestamps for reproducible binaries (2026-11-05 14:30:00 UTC).
+export SOURCE_DATE_EPOCH=1793889000
+gftools builder sources/config.yaml

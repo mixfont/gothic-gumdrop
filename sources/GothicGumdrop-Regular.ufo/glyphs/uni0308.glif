@@ -1,18 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni0308" format="2">
   <unicode hex="0308"/>
-  <anchor x="-127" y="541" name="_topdieresis"/>
-  <anchor x="-127" y="692" name="topgrave"/>
-  <anchor x="-127" y="692" name="topacute"/>
-  <anchor x="-127" y="692" name="topcircumflex"/>
-  <anchor x="-127" y="692" name="toptilde"/>
-  <anchor x="-127" y="692" name="topmacron"/>
-  <anchor x="-127" y="692" name="topbreve"/>
-  <anchor x="-127" y="692" name="topdotaccent"/>
-  <anchor x="-127" y="692" name="topdieresis"/>
-  <anchor x="-127" y="692" name="topring"/>
-  <anchor x="-127" y="692" name="tophungarumlaut"/>
-  <anchor x="-127" y="692" name="topcaron"/>
+  <anchor x="-127" y="541" name="_top"/>
+  <anchor x="-127" y="692" name="top"/>
   <outline>
     <contour>
       <point x="-145" y="608" type="curve" smooth="yes"/>
